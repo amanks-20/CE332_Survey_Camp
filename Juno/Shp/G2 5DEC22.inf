@@ -1,0 +1,146 @@
+Setup Used:              Sample ESRI Shapefile Setup
+Export Format:           ESRI Shapefile
+Data Type:               Features
+Feature Selection:       Export All Features
+Not In Feature Positions:Not Used
+Export Notes:            No
+Export Velocity Records: No
+Export Sensor Records:   No
+Export Menu Attribute As:Attribute Value
+Generated Attributes:    Max PDOP
+                         Max HDOP
+                         Corr Type
+                         Rcvr Type
+                         GPS Date
+                         GPS Time
+                         Update Status
+                         Feat Name
+                         Datafile
+                         Unfilt Pos
+                         Filt Pos
+                         Data Dictionary Name
+                         GPS Week
+                         GPS Second
+                         GNSS Height
+                         Vert Prec
+                         Horz Prec
+                         Std Dev
+                         Latitude
+                         Longitude
+                         Northing
+                         Easting
+                         Point_ID
+                         GNSS Length
+                         GNSS 3DLength
+                         Avg Vert Prec
+                         Avg Horz Prec
+                         Worst Vert Prec
+                         Worst Horz Prec
+                         Line_ID
+                         GNSS Area
+                         GNSS Perimeter
+                         GNSS 3DPerimeter
+                         Avg Vert Prec
+                         Avg Horz Prec
+                         Worst Vert Prec
+                         Worst Horz Prec
+                         Area_ID
+Position Filter Details: 
+Filter By:               GNSS Criteria
+Maximum PDOP:            Any
+Maximum HDOP:            Any
+Min Number Of SVs:       2D (3 or more measurements)
+Uncorrected:             Yes
+P(Y) Code:               Yes
+Real-time SBAS:          Yes
+Real-time Code:          Yes
+Postprocessed Code:      Yes
+Real-time Carrier Float: Yes
+Postprocessed Carrier Float:Yes
+RTK Fixed:               Yes
+Postprocessed Carrier Fixed:Yes
+Non-GNSS:                Yes
+Coordinate System:       World wide/UTM
+Coordinate Zone:         44 North
+Datum:                   WGS 1984
+Coordinate Units:        Meters
+Altitude Units:          Meters
+Altitude Reference:      MSL
+Geoid Model:             EGM96 (Global)
+Distance Units:          Meters
+Area Units:              Square Meters
+Velocity Units:          Meters Per Second
+Precision Units:         Meters
+                         
+Data Dictionary
+---------------
+Point_ge - Point Feature
+    Comment - String, Length = 32
+    Max PDOP - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Max HDOP - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Corr Type - String, Length = 36
+    Rcvr Type - String, Length = 36
+    GPS Date - Date
+    GPS Time - Time
+    Update Sta - String, Length = 36
+    Feat Name - String, Length = 20
+    Datafile - String, Length = 20
+    Unfilt Pos - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    Filt Pos - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    Data Dicti - String, Length = 20
+    GPS Week - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    GPS Second - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    GNSS Heigh - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    Vert Prec - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Horz Prec - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Std Dev - Numeric, DP = 6, Min = 0.000000, Max = 0.000000, Default = 0.000000
+    Northing - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    Easting - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    Point_ID - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+Line_gen - Line Feature
+    Comment - String, Length = 32
+    Max PDOP - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Max HDOP - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Corr Type - String, Length = 36
+    Rcvr Type - String, Length = 36
+    GPS Date - Date
+    GPS Time - Time
+    Update Sta - String, Length = 36
+    Feat Name - String, Length = 20
+    Datafile - String, Length = 20
+    Unfilt Pos - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    Filt Pos - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    Data Dicti - String, Length = 20
+    GPS Week - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    GPS Second - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    GNSS Lengt - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    GNSS 3DLen - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    Avg Vert P - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Avg Horz P - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Worst Vert - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Worst Horz - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Line_ID - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+Area_gen - Area Feature
+    Comment - String, Length = 32
+    Max PDOP - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Max HDOP - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Corr Type - String, Length = 36
+    Rcvr Type - String, Length = 36
+    GPS Date - Date
+    GPS Time - Time
+    Update Sta - String, Length = 36
+    Feat Name - String, Length = 20
+    Datafile - String, Length = 20
+    Unfilt Pos - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    Filt Pos - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    Data Dicti - String, Length = 20
+    GPS Week - Numeric, DP = 0, Min = 0, Max = 0, Default = 0
+    GPS Second - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    GNSS Area - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    GNSS Perim - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    GNSS 3DPer - Numeric, DP = 3, Min = 0.000, Max = 0.000, Default = 0.000
+    Avg Vert P - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Avg Horz P - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Worst Vert - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Worst Horz - Numeric, DP = 1, Min = 0.0, Max = 0.0, Default = 0.0
+    Area_ID - Numeric, DP = 0, Min = 0, Max = 0, Default = 0

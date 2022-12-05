@@ -1,0 +1,35 @@
+Export Version 5.60  5.60 Started.
+Using Export Setup: Sample KML Setup
+The following files in C:\Users\GI_LAB\Desktop\JunoData_SurveyCAmp2022\G2 will be exported:
+    G2 5DEC22.cor
+    G2,2022.cor
+
+Reading file G2 5DEC22.cor
+11694 position(s) read.
+  Of these, 34 position(s) were filtered out.
+A total of 4 feature(s) read or created.
+  3 line feature(s) read.
+  1 area feature(s) read.
+File G2 5DEC22.cor read successfully
+
+Reading file G2,2022.cor
+525 position(s) read.
+  Of these, 7 position(s) were filtered out.
+A total of 93 feature(s) read or created.
+  93 point feature(s) read.
+File G2,2022.cor read successfully
+
+2 input file(s) read.
+12219 position(s) read.
+  Of these, 41 position(s) were filtered out.
+A total of 97 feature(s) read or created.
+  93 point feature(s) read.
+  3 line feature(s) read.
+  1 area feature(s) read.
+97 feature(s) exported.
+1 output file(s) written to C:\Users\GI_LAB\Desktop\JunoData_SurveyCAmp2022\G2
+    c:\users\gi_lab\desktop\junodata_surveycamp2022\g2\g2 5dec22.kmz
+
+The file C:\Users\GI_LAB\Desktop\JunoData_SurveyCAmp2022\G2\G2 5DEC22.inf contains information on the settings used.
+
+The file C:\ProgramData\Trimble\GPS Pathfinder Office\Config\\expfiles.txt contains a list of the files created.
